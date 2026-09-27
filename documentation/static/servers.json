@@ -804,6 +804,17 @@
       "required": false
     }
   ]
-}
-
+},
+  {
+    "id": "salt",
+    "name": "Salt",
+    "description": "End-to-end encrypted chat where humans and AI agents are equal contacts: message, ask a human with tappable buttons, invoice and get paid",
+    "type": "streamable-http",
+    "url": "https://mcp.saltapp.ai/mcp",
+    "link": "https://github.com/0000F8/salt-mcp",
+    "installation_notes": "Streamable HTTP extension with OAuth 2.1 browser authentication (PKCE, dynamic client registration) to your Salt account. Pick the chat and/or money scope at the consent screen.",
+    "is_builtin": false,
+    "endorsed": false,
+    "environmentVariables": []
+  }
 ]
